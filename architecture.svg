@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="100%" height="100%">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+    .text { font-family: 'JetBrains Mono', monospace; fill: #f8fafc; }
+    .title { font-weight: 700; font-size: 11px; fill: #38bdf8; letter-spacing: 0.5px; }
+    .subtitle { font-size: 9px; fill: #94a3b8; }
+    .service-box { fill: #111827; stroke: #334155; stroke-width: 1.5; rx: 8px; transition: all 0.3s; }
+    .service-box:hover { stroke: #38bdf8; fill: #0f172a; }
+    .database-box { fill: #030712; stroke: #a855f7; stroke-width: 1.5; rx: 8px; }
+    .gateway-box { fill: #030712; stroke: #0ea5e9; stroke-width: 2; rx: 8px; }
+    .client-box { fill: #030712; stroke: #f43f5e; stroke-width: 1.5; rx: 8px; }
+    
+    .flow-line { fill: none; stroke: #334155; stroke-width: 1.5; stroke-dasharray: 4, 4; }
+    .flow-line-active { fill: none; stroke: #38bdf8; stroke-width: 2; stroke-dasharray: 8, 8; animation: dash 6s linear infinite; }
+    .flow-line-event { fill: none; stroke: #22c55e; stroke-width: 2; stroke-dasharray: 8, 8; animation: dash-reverse 8s linear infinite; }
+    .flow-line-db { fill: none; stroke: #a855f7; stroke-width: 1.5; stroke-dasharray: 6, 6; animation: dash 5s linear infinite; }
+    .flow-line-cache { fill: none; stroke: #f43f5e; stroke-width: 1.5; stroke-dasharray: 6, 6; animation: dash 5s linear infinite; }
+    
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -100;
+      }
+    }
+    @keyframes dash-reverse {
+      to {
+        stroke-dashoffset: 100;
+      }
+    }
+    .pulse-glow { animation: glow 2s ease-in-out infinite alternate; }
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 2px rgba(14, 165, 233, 0.4)); }
+      to { filter: drop-shadow(0 0 10px rgba(14, 165, 233, 0.8)); }
+    }
+    
+    .badge { font-size: 8px; fill: #0f172a; font-weight: 700; }
+    .badge-bg-blue { fill: #38bdf8; rx: 3px; }
+    .badge-bg-purple { fill: #c084fc; rx: 3px; }
+    .badge-bg-green { fill: #4ade80; rx: 3px; }
+    .badge-bg-red { fill: #f87171; rx: 3px; }
+  </style>
+  
+  <!-- Background grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+  
+  <!-- Base Outer Card Background -->
+  <rect width="100%" height="100%" fill="#090d16" rx="10" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="100%" height="100%" fill="url(#grid)" rx="10" />
+
+  <!-- Header Title -->
+  <text x="30" y="40" class="text" style="font-size: 16px; font-weight: 700; fill: #f8fafc; letter-spacing: 0.5px;">⚡ SYSTEM ARCHITECTURE MAP</text>
+  <text x="30" y="58" class="text subtitle" style="font-size: 10px; fill: #64748b;">Enterprise Scale Distributed System Design &amp; Event-Driven Microservices Flow</text>
+
+  <!-- Client Box -->
+  <g transform="translate(35, 175)">
+    <rect width="105" height="90" class="client-box" />
+    <text x="52.5" y="32" dominant-baseline="middle" text-anchor="middle" class="text title" style="fill: #f43f5e; font-size: 11px;">CLIENT LAYER</text>
+    <line x1="10" y1="46" x2="95" y2="46" stroke="#334155" stroke-width="1" />
+    <text x="15" y="62" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">📱 iOS / Android</text>
+    <text x="15" y="78" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">💻 Next.js Web</text>
+  </g>
+
+  <!-- API Gateway Box -->
+  <g transform="translate(180, 150)">
+    <rect width="125" height="140" class="gateway-box pulse-glow" />
+    <text x="62.5" y="28" dominant-baseline="middle" text-anchor="middle" class="text title" style="fill: #0ea5e9; font-size: 11px;">API GATEWAY</text>
+    <line x1="10" y1="42" x2="115" y2="42" stroke="#1e293b" stroke-width="1" />
+    <text x="15" y="60" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">🛡️ Nginx / Spring</text>
+    <text x="15" y="78" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">🔑 JWT Validation</text>
+    <text x="15" y="96" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">⏳ Rate Limiter</text>
+    <text x="15" y="114" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">⚖️ Load Balancer</text>
+  </g>
+
+  <!-- Microservices -->
+  <!-- 1. AutoRickshaw Service (Spring Boot) -->
+  <g transform="translate(355, 80)">
+    <rect width="200" height="75" class="service-box" />
+    <text x="15" y="24" class="text title" style="font-size: 11px;">🚗 AutoRickshaw Service</text>
+    <text x="15" y="40" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">Geospatial Matching Engine</text>
+    <rect x="15" y="50" width="60" height="13" class="badge-bg-blue" />
+    <text x="45" y="59" class="text badge" text-anchor="middle">SPRING BOOT</text>
+    <rect x="80" y="50" width="30" height="13" class="badge-bg-purple" />
+    <text x="95" y="59" class="text badge" text-anchor="middle">JAVA</text>
+    <rect x="115" y="50" width="40" height="13" class="badge-bg-red" />
+    <text x="135" y="59" class="text badge" text-anchor="middle">DOCKER</text>
+  </g>
+
+  <!-- 2. Convo Chat Service (FastAPI) -->
+  <g transform="translate(355, 182)">
+    <rect width="200" height="75" class="service-box" />
+    <text x="15" y="24" class="text title" style="font-size: 11px;">💬 Convo Chat Service</text>
+    <text x="15" y="40" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">WebSocket Real-Time Messaging</text>
+    <rect x="15" y="50" width="45" height="13" class="badge-bg-blue" />
+    <text x="37.5" y="59" class="text badge" text-anchor="middle">FASTAPI</text>
+    <rect x="65" y="50" width="45" height="13" class="badge-bg-purple" />
+    <text x="87.5" y="59" class="text badge" text-anchor="middle">PYTHON</text>
+    <rect x="115" y="50" width="60" height="13" class="badge-bg-green" />
+    <text x="145" y="59" class="text badge" text-anchor="middle">WEBSOCKETS</text>
+  </g>
+
+  <!-- 3. Clinic Service (NextJS / Spring Boot) -->
+  <g transform="translate(355, 285)">
+    <rect width="200" height="75" class="service-box" />
+    <text x="15" y="24" class="text title" style="font-size: 11px;">🏥 Clinic Platform Service</text>
+    <text x="15" y="40" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">Scheduling Booking Engine</text>
+    <rect x="15" y="50" width="60" height="13" class="badge-bg-blue" />
+    <text x="45" y="59" class="text badge" text-anchor="middle">SPRING BOOT</text>
+    <rect x="80" y="50" width="45" height="13" class="badge-bg-purple" />
+    <text x="102.5" y="59" class="text badge" text-anchor="middle">POSTGRES</text>
+  </g>
+
+  <!-- Message Broker - Apache Kafka -->
+  <g transform="translate(355, 390)">
+    <rect width="415" height="40" class="service-box" style="stroke: #22c55e; fill: #052e16;" />
+    <text x="207.5" y="24" dominant-baseline="middle" text-anchor="middle" class="text title" style="fill: #4ade80; font-size: 11px; letter-spacing: 2px; font-weight: bold;">⚡ APACHE KAFKA EVENT BUS (ASYNC EVENTS)</text>
+  </g>
+
+  <!-- Databases & Caches -->
+  <!-- Redis Geospatial & Cache -->
+  <g transform="translate(605, 95)">
+    <rect width="165" height="95" class="database-box" style="stroke: #ef4444;" />
+    <text x="82.5" y="25" text-anchor="middle" class="text title" style="fill: #ef4444; font-size: 11px;">REDIS CACHE &amp; KV</text>
+    <line x1="10" y1="38" x2="155" y2="38" stroke="#1e293b" stroke-width="1" />
+    <text x="15" y="55" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">📍 Geospatial Indexing</text>
+    <text x="15" y="71" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">⚡ Session &amp; OTP Cache</text>
+    <text x="15" y="87" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">📢 Pub/Sub Broker</text>
+  </g>
+
+  <!-- PostgreSQL Database -->
+  <g transform="translate(605, 220)">
+    <rect width="165" height="110" class="database-box" />
+    <text x="82.5" y="25" text-anchor="middle" class="text title" style="fill: #c084fc; font-size: 11px;">POSTGRESQL DB</text>
+    <line x1="10" y1="38" x2="155" y2="38" stroke="#1e293b" stroke-width="1" />
+    <text x="15" y="55" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">👥 Primary-Replica</text>
+    <text x="15" y="71" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">📊 Partitioned Tables</text>
+    <text x="15" y="87" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">🔍 Composite Indexes</text>
+    <text x="15" y="103" class="text subtitle" style="font-size: 9px; fill: #cbd5e1;">🛡️ Transaction Isolation</text>
+  </g>
+
+  <!-- Flow Lines (Connections) -->
+  <!-- Client to Gateway -->
+  <path d="M 140 220 L 180 220" class="flow-line-active" />
+  
+  <!-- Gateway to Services -->
+  <path d="M 305 170 L 330 170 L 330 115 L 355 115" class="flow-line-active" />
+  <path d="M 305 220 L 355 220" class="flow-line-active" />
+  <path d="M 305 270 L 330 270 L 330 322 L 355 322" class="flow-line-active" />
+
+  <!-- AutoRickshaw to Redis and PG -->
+  <path d="M 555 115 L 605 115" class="flow-line-cache" />
+  <path d="M 555 135 L 585 135 L 585 240 L 605 240" class="flow-line-db" />
+
+  <!-- Convo to PG and Redis -->
+  <path d="M 555 200 L 585 200 L 585 160 L 605 160" class="flow-line-cache" />
+  <path d="M 555 220 L 605 255" class="flow-line-db" />
+
+  <!-- Clinic to PG -->
+  <path d="M 555 322 L 585 322 L 585 290 L 605 290" class="flow-line-db" />
+
+  <!-- Services to Kafka -->
+  <!-- AutoRickshaw Publish Event -->
+  <path d="M 385 155 L 385 390" class="flow-line-event" />
+  <circle cx="385" cy="155" r="3" fill="#22c55e" />
+  
+  <!-- Convo Publish Event -->
+  <path d="M 455 257 L 455 390" class="flow-line-event" />
+  <circle cx="455" cy="257" r="3" fill="#22c55e" />
+  
+  <!-- Kafka to Clinic / Notification Consumer -->
+  <path d="M 525 390 L 525 360" class="flow-line-event" style="animation-direction: reverse;" />
+  <circle cx="525" cy="360" r="3" fill="#22c55e" />
+</svg>

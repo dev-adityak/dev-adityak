@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="100%">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+    
+    .text-sans { font-family: 'Inter', sans-serif; fill: #f8fafc; }
+    .text-mono { font-family: 'JetBrains Mono', monospace; }
+    
+    .name { font-weight: 800; font-size: 46px; fill: #ffffff; }
+    .title { font-weight: 600; font-size: 26px; fill: #00e5ff; }
+    .tags { font-size: 13px; fill: #94a3b8; letter-spacing: 2px; }
+    .icon-label { font-size: 12px; fill: #cbd5e1; font-weight: 600; }
+    
+    .hud-glow { filter: drop-shadow(0 0 8px rgba(0, 229, 255, 0.6)); }
+    .circuit-glow { filter: drop-shadow(0 0 4px rgba(0, 229, 255, 0.4)); }
+    
+    /* Blinking Node Animation */
+    .blinking-node { animation: blink 2.5s infinite; }
+    @keyframes blink {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; fill: #00e5ff; filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.8)); }
+    }
+  </style>
+
+  <!-- Defs: Gradients, Patterns, and Filters -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#070f24" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="hud-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+    <pattern id="grid-dots" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#1e293b" fill-opacity="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" rx="10" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="100%" height="100%" fill="url(#grid-dots)" rx="10" />
+
+  <!-- CIRCUIT BACKGROUND LINES (RIGHT TO LEFT) -->
+  <g stroke="#102a43" stroke-width="1.5" fill="none" opacity="0.6">
+    <!-- Center to Left Traces -->
+    <path d="M 640 200 L 540 200" />
+    <path d="M 660 120 L 580 80 L 400 80" />
+    <path d="M 660 280 L 580 320 L 480 320" />
+    <!-- Diagonal background tracers -->
+    <path d="M 780 60 L 780 20 L 720 20" />
+    <path d="M 780 340 L 780 380 L 700 380" />
+    <path d="M 920 200 L 970 200 L 980 210" />
+    <path d="M 870 110 L 920 60 L 950 60" />
+    <path d="M 870 290 L 920 340 L 950 340" />
+  </g>
+
+  <!-- ACTIVE CIRCUITS (ANIMATED GLOW PATHS) -->
+  <g stroke="#00e5ff" stroke-width="1.5" fill="none" class="circuit-glow" opacity="0.8">
+    <path d="M 660 120 L 580 80 L 400 80" stroke-dasharray="12 40">
+      <animate attributeName="stroke-dashoffset" values="100;0" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 640 200 L 540 200" stroke-dasharray="8 30">
+      <animate attributeName="stroke-dashoffset" values="0;-100" dur="3s" repeatCount="indefinite" />
+    </path>
+    <path d="M 660 280 L 580 320 L 480 320" stroke-dasharray="15 45">
+      <animate attributeName="stroke-dashoffset" values="120;0" dur="5s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Blinking Circuit Nodes -->
+  <circle cx="400" cy="80" r="3" fill="#1e293b" class="blinking-node" />
+  <circle cx="540" cy="200" r="3" fill="#1e293b" class="blinking-node" />
+  <circle cx="480" cy="320" r="3" fill="#1e293b" class="blinking-node" />
+  <circle cx="950" cy="60" r="2.5" fill="#1e293b" class="blinking-node" />
+  <circle cx="950" cy="340" r="2.5" fill="#1e293b" class="blinking-node" />
+
+  <!-- LEFT PANEL: PROFILE TEXT & TECH BRAG CONTAINER -->
+  <!-- Top decorative bracket -->
+  <path d="M 50 65 L 50 50 L 80 50" fill="none" stroke="#00e5ff" stroke-width="2" />
+  <text x="65" y="44" class="text-mono" font-size="12" fill="#00e5ff" font-weight="700">&lt;/&gt;</text>
+
+  <!-- Main Name & Subtitle -->
+  <text x="50" y="125" class="text-sans name">Aditya Kumar Kori</text>
+  <text x="50" y="165" class="text-sans title">Backend Engineer</text>
+  
+  <!-- Divider -->
+  <line x1="50" y1="195" x2="520" y2="195" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Skill Tagline -->
+  <text x="50" y="225" class="text-mono tags">JAVA   |   SPRING BOOT EXPERT   |   DISTRIBUTED SYSTEMS</text>
+
+  <!-- Technology Highlight Boxes Container -->
+  <rect x="50" y="250" width="470" height="85" rx="8" fill="#030712" stroke="#1e293b" stroke-width="1.5" />
+  <g transform="translate(50, 250)">
+    <!-- Column 1: Java -->
+    <g transform="translate(10, 10)">
+      <!-- Java Cup Icon (Cyan) -->
+      <g transform="translate(45, 10)" fill="none" stroke="#00e5ff" stroke-width="1.5">
+        <path d="M 0 16 Q 12 19 24 16" stroke-linecap="round" />
+        <path d="M 3 10 Q 12 13 21 10 C 22 14 20 20 12 20 C 4 20 2 14 3 10 Z" fill="#030712" stroke-width="2" />
+        <path d="M 21 11 C 25 11 25 15 21 15" />
+        <path d="M 7 6 Q 5 0 9 -4" stroke-width="1" />
+        <path d="M 12 5 Q 10 -1 14 -5" stroke-width="1" />
+        <path d="M 17 6 Q 15 0 19 -4" stroke-width="1" />
+      </g>
+      <text x="57" y="58" class="text-sans icon-label" text-anchor="middle">Java</text>
+    </g>
+
+    <!-- Column Separator 1 -->
+    <line x1="150" y1="15" x2="150" y2="70" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Column 2: Spring Boot -->
+    <g transform="translate(155, 10)">
+      <!-- Spring Leaf Icon (Green) -->
+      <g transform="translate(45, 10)" fill="none" stroke="#00ff66" stroke-width="1.5">
+        <path d="M 12 22 C 2 12 8 0 12 -4 C 16 0 22 12 12 22 Z" stroke-width="2" />
+        <path d="M 12 -4 L 12 22" />
+        <path d="M 12 4 Q 18 2 20 -2" />
+        <path d="M 12 10 Q 6 10 4 6" />
+      </g>
+      <text x="57" y="58" class="text-sans icon-label" text-anchor="middle">Spring Boot Expert</text>
+    </g>
+
+    <!-- Column Separator 2 -->
+    <line x1="310" y1="15" x2="310" y2="70" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Column 3: Distributed Systems -->
+    <g transform="translate(315, 10)">
+      <!-- Distributed Network/Cube Icon -->
+      <g transform="translate(45, 10)" fill="none" stroke="#00e5ff" stroke-width="1.5">
+        <path d="M 12 -2 L 24 4 L 12 10 L 0 4 Z" />
+        <path d="M 0 4 L 0 16 L 12 22 L 12 10 Z" />
+        <path d="M 12 10 L 12 22 L 24 16 L 24 4 Z" />
+        <circle cx="12" cy="10" r="2" fill="#00e5ff" stroke="none" />
+      </g>
+      <text x="57" y="58" class="text-sans icon-label" text-anchor="middle">Distributed Systems</text>
+    </g>
+  </g>
+
+  <!-- Connect Social Icons row -->
+  <g transform="translate(50, 355)" stroke="#1e293b" stroke-width="1.2" fill="none">
+    <!-- Hexagon 1: GitHub -->
+    <g transform="translate(90, 0)">
+      <polygon points="12,0 24,7 24,21 12,28 0,21 0,7" fill="#030712" />
+      <path d="M 12 8 A 4 4 0 0 0 8 12 C 8 14.5 9.5 16 10 16.5 L 10 18 L 12 17 L 14 18 L 14 16.5 C 14.5 16 16 14.5 16 12 A 4 4 0 0 0 12 8 Z" fill="#00e5ff" stroke="none" />
+    </g>
+    <!-- Hexagon 2: LinkedIn -->
+    <g transform="translate(150, 0)">
+      <polygon points="12,0 24,7 24,21 12,28 0,21 0,7" fill="#030712" />
+      <text x="12" y="18" class="text-mono" font-size="10" font-weight="700" fill="#00e5ff" stroke="none" text-anchor="middle">in</text>
+    </g>
+    <!-- Hexagon 3: Email -->
+    <g transform="translate(210, 0)">
+      <polygon points="12,0 24,7 24,21 12,28 0,21 0,7" fill="#030712" />
+      <rect x="7" y="9" width="10" height="7" rx="1" stroke="#00e5ff" stroke-width="1" />
+      <path d="M 7 10 L 12 13 L 17 10" stroke="#00e5ff" stroke-width="1" />
+    </g>
+    <!-- Hexagon 4: Website -->
+    <g transform="translate(270, 0)">
+      <polygon points="12,0 24,7 24,21 12,28 0,21 0,7" fill="#030712" />
+      <text x="12" y="18" class="text-sans" font-size="10" font-weight="700" fill="#00e5ff" stroke="none" text-anchor="middle">&lt;/&gt;</text>
+    </g>
+  </g>
+
+
+  <!-- RIGHT PANEL: COMPILING JAVA HUD CONTROL SYSTEM -->
+  <!-- Target coordinates for HUD: cx=780, cy=200 -->
+  <g transform="translate(0, 0)" class="hud-glow">
+    <!-- Concentric Ring 1: Slotted Outer Ring (Clockwise Rotation) -->
+    <circle cx="780" cy="200" r="140" fill="none" stroke="url(#hud-grad)" stroke-width="1.5" stroke-dasharray="15,40" opacity="0.3">
+      <animateTransform attributeName="transform" type="rotate" from="0 780 200" to="360 780 200" dur="30s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Concentric Ring 2: Solid Accent Ring (Static) -->
+    <circle cx="780" cy="200" r="128" fill="none" stroke="#00e5ff" stroke-width="1" opacity="0.15" />
+
+    <!-- Concentric Ring 3: Segmented Middle Ring (Counter-Clockwise Rotation) -->
+    <circle cx="780" cy="200" r="120" fill="none" stroke="#00e5ff" stroke-width="3" stroke-dasharray="100,50" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="360 780 200" to="0 780 200" dur="20s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Concentric Ring 4: Ticked Inner Ring (Clockwise Rotation) -->
+    <circle cx="780" cy="200" r="100" fill="none" stroke="#00e5ff" stroke-width="1" stroke-dasharray="4,8" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0 780 200" to="360 780 200" dur="40s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Concentric Ring 5: Core Orbit Ring (Static) -->
+    <circle cx="780" cy="200" r="88" fill="none" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.3" />
+
+    <!-- PULSING CORE LOGO CONTAINER: JAVA CUP -->
+    <g class="pulse-logo">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+      
+      <!-- Steaming Java Cup paths -->
+      <!-- Cup Body -->
+      <path d="M 748 185 Q 780 195 812 185 C 815 199 810 213 780 213 C 750 213 745 199 748 185 Z" fill="#04091a" stroke="#00e5ff" stroke-width="3.5" stroke-linejoin="round" />
+      
+      <!-- Cup Handle -->
+      <path d="M 812 190 C 827 190 829 208 812 208" fill="none" stroke="#00e5ff" stroke-width="3" />
+      
+      <!-- Bottom Waves/Plates -->
+      <path d="M 745 223 Q 780 233 815 223" fill="none" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M 752 214 Q 780 223 808 214" fill="none" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Steam Lines (Drifting Upward) -->
+      <!-- Steam Line 1 -->
+      <path d="M 765 170 Q 760 155 770 140 T 765 125" fill="none" stroke="#00e5ff" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -15" dur="4s" repeatCount="indefinite" />
+      </path>
+      <!-- Steam Line 2 -->
+      <path d="M 780 165 Q 775 145 785 130 T 780 115" fill="none" stroke="#00e5ff" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="0;0.8;0" dur="3.5s" begin="1s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -20" dur="3.5s" begin="1s" repeatCount="indefinite" />
+      </path>
+      <!-- Steam Line 3 -->
+      <path d="M 795 170 Q 790 155 800 140 T 795 125" fill="none" stroke="#00e5ff" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="0;0.8;0" dur="4.2s" begin="0.5s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -15" dur="4.2s" begin="0.5s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+</svg>

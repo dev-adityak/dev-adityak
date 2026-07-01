@@ -1,153 +1,226 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=0f172a&customColorEnd=1e1b4b&height=220&section=header&text=Aditya%20Kumar%20Kori&fontSize=50&fontColor=f8fafc&animation=fadeIn" width="100%" />
+  <img width="100%" src="banner.svg" alt="Aditya Kumar Kori Header Banner" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&height=50&lines=Software+Engineer;Backend+Engineering+%7C+Distributed+Systems;Building+Scalable+Cloud-Native+Applications" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Backend+Engineer;Java+%7C+Spring+Boot+Expert;Distributed+Systems+Developer;Building+Production+Scale+Applications;Clean+Architecture+Advocate;Always+Learning+Always+Building" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/AdityaCS06">
-    <img src="https://komarev.com/normal-badge/?username=AdityaCS06&color=0ea5e9&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+---
+
+## ⚡ About Me
+
+I'm a passionate **Software Engineer** focused on designing scalable backend systems and cloud-native applications. I enjoy solving complex engineering challenges involving distributed systems, database optimization, caching strategies, authentication, and high-performance APIs.
+
+### 🧠 Engineering Interests
+* ✔ **Clean Architecture** & Domain-Driven Design (DDD)
+* ✔ **Microservices** & Event-Driven Architecture
+* ✔ **Distributed Systems** & Horizontal Scaling
+* ✔ **Database Indexing** & Query Optimization
+* ✔ **Secure Authentication** & DevOps Automation
+
+---
+
+## 🚀 Currently Working On
+
+* 🔥 **Enterprise Ride Booking Platform** (`AutoRickshaw`)
+* 💬 **High Performance Chat Application** (`Convo`)
+* 🏥 **SEO Optimized Clinic Platform** (`ClinicHub`)
+
+---
+
+## 📖 Currently Learning
+
+To broaden my system engineering and backend capabilities, I am actively diving deep into:
+* ⚡ **Apache Kafka** (Event-driven streaming, log compaction, partition offsets)
+* ☁ **Kubernetes** (Container orchestration, pod scaling, service meshes)
+* 🐳 **Docker Ecosystem** (Multi-stage builds, compose networks, local registry deployment)
+* 🏗 **Distributed System Design Patterns** (Saga pattern, distributed consensus, data replication)
+
+---
+
+## ⚙️ Tech Stack
+
+### 💻 Languages
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,py,js,ts,mysql&theme=dark" />
+  </a>
+</p>
+
+### ⚙️ Backend Frameworks & Architecture
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=spring,fastapi,django,express&theme=dark" />
+  </a>
+</p>
+
+### 🗄️ Databases, Caching & Events
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka&theme=dark" />
+  </a>
+</p>
+
+### 🚀 DevOps, Cloud & Tools
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,git,linux,postman,do&theme=dark" />
+  </a>
+</p>
+
+### 🎨 Frontend Integration
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind&theme=dark" />
   </a>
 </p>
 
 ---
 
-## 🚀 About Me
+## 🏗️ Engineering Expertise
 
-I am a **Software Engineer** specializing in backend engineering, distributed systems, and scalable software architectures. I focus on building production-grade backend applications, designing high-performance APIs, and optimizing database layers for speed and reliability. My development philosophy is rooted in Clean Architecture, performance optimization, and robust engineering practices.
-
-- 🏗️ **System Architecture:** Crafting modular, maintainable, and testable microservices.
-- ⚙️ **Performance & Scaling:** Query optimization, caching strategies, and load management.
-- 🔒 **Enterprise Security:** Implementing robust authentication and authorization schemes.
-- ⚡ **API Design:** Building clean, standards-compliant RESTful APIs.
-
----
-
-## 🎯 Engineering Focus
-
-* **Backend Architecture** – Domain-Driven Design (DDD), Clean Architecture, and modular codebase construction.
-* **System Design** – High availability, failure tolerance, rate limiting, and database replication patterns.
-* **REST APIs** – Secure, documented, and resilient RESTful endpoints using OpenAPI/Swagger guidelines.
-* **Database Design** – Schema optimization, indexing strategies, transactions, and performance tuning for high query volumes.
-* **Authentication Systems** – Secure token-based auth mechanisms (JWT, OAuth2) and Role-Based Access Control (RBAC).
-* **Microservices** – Decoupled services communicating via synchronous APIs and asynchronous event-driven flows.
-* **Cloud Deployment** – Infrastructure containerization (Docker) and deployment on secure cloud infrastructures.
-* **Performance Optimization** – Profiling backend applications, indexing optimization, and connection pool tuning.
-
----
-
-## 🛠️ Technological Arsenal
-
-### 💻 Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" height="24" alt="Java"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="24" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height="24" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" height="24" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white" height="24" alt="SQL"/>
-</p>
-
-### ⚙️ Backend Architecture & Frameworks
-<p align="left">
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" height="24" alt="Spring Boot"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" height="24" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" height="24" alt="Django"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" height="24" alt="Express.js"/>
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring&logoColor=white" height="24" alt="Spring Security"/>
-  <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" height="24" alt="Hibernate"/>
-  <img src="https://img.shields.io/badge/JPA-grey?style=flat-square&logo=java&logoColor=white" height="24" alt="JPA"/>
-  <img src="https://img.shields.io/badge/Microservices-4F46E5?style=flat-square&logo=dependencytrack&logoColor=white" height="24" alt="Microservices"/>
-</p>
-
-### 🗄️ Databases & Caching
-<p align="left">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" height="24" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" height="24" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" height="24" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" height="24" alt="Redis"/>
-</p>
-
-### 🎨 Frontend Integration
-<p align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" height="24" alt="React"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="24" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" height="24" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height="24" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" height="24" alt="CSS3"/>
-</p>
-
-### 🚀 DevOps, Cloud & Tooling
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="24" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" height="24" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="24" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" height="24" alt="Postman"/>
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" height="24" alt="Swagger"/>
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" height="24" alt="Maven"/>
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" height="24" alt="Gradle"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="24" alt="Vercel"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" height="24" alt="Render"/>
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" height="24" alt="DigitalOcean"/>
-</p>
-
----
-
-## 📁 Featured Systems & Projects
-
-### 🚗 AutoRickshaw Platform
-> **An enterprise-grade, ride-hailing engine designed for sub-second matching and high throughput.**
-* **Real-Time Telemetry:** Implemented live tracking and spatial queries using Redis Geohashes to track and match driver locations.
-* **Driver Management & Verification:** Built an asynchronous document verification pipeline that reduces driver onboarding latency.
-* **Resilient Booking Engine:** Leveraged distributed locks to eliminate double-booking anomalies during peak hours.
-* **Tech Stack:** `Java` · `Spring Boot` · `Hibernate` · `PostgreSQL` · `Redis` · `Docker`
-
-### 💬 Convo Chat Application
-> **A secure, low-latency messaging architecture handling high concurrency.**
-* **Full-Duplex Communication:** Powered by WebSockets to ensure real-time text exchange with minimal overhead.
-* **Stateless Authentication:** Fine-grained JWT access token validation with automated token refresh mechanism.
-* **Scalable Storage Design:** Crafted an optimized schema on PostgreSQL with precise partitioning and composite indexing for immediate message retrieval.
-* **Tech Stack:** `FastAPI` · `Python` · `WebSockets` · `PostgreSQL` · `Docker` · `JWT`
-
-### 🏥 Clinic Management Platform
-> **A SEO-centric, patient-care administrative dashboard built for speed and accessibility.**
-* **Conflict-Free Scheduling:** Constructed a custom booking state-machine preventing appointment overlaps.
-* **Optimized Page Speed:** Built with Next.js utilizing static site generation (SSG) and server-side rendering (SSR) to achieve a 98+ Lighthouse score.
-* **CMS-Driven Profiles:** Dynamic Markdown-based profiling system for practitioners with integrated metadata injection for optimal SEO.
-* **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Spring Boot` · `PostgreSQL`
-
----
-
-## 🗺️ Continuous Growth & Learning Path
-
-Currently deepening expertise in:
-- **Advanced System Design:** Designing fault-tolerant distributed databases and consensus algorithms.
-- **Distributed & Event-Driven Systems:** Deep dive into Apache Kafka partitioning and event-driven patterns.
-- **Cloud-Native & DevOps:** Kubernetes cluster management, Helm charts, and robust GitHub Actions CI/CD workflows.
-- **Database Internals:** PostgreSQL page structure, WAL mechanism, and execution planner cost estimations.
-
----
-
-## 📊 Analytics & Metrics
+I design system architectures with a strong emphasis on decoupling, caching efficiency, and horizontal scaling. Here is the operational design schema of my deployment setups:
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AdityaCS06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaCS06&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="architecture.svg" alt="Distributed System Architecture Map" width="100%" />
+</p>
+
+---
+
+## 💼 Featured Systems & Projects
+
+Here is a look at the architecture specifications of my core systems.
+
+```yaml
+🚗 [AutoRickshaw Platform](https://github.com/dev-adityak/AutoRickshaw):
+  Description: "An enterprise-grade, ride-hailing system designed for low-latency matching and high throughput."
+  Highlights:
+    - ✔ Redis Geospatial Search: Live vehicle tracking and geospatial indexing.
+    - ✔ Driver Matching: Real-time spatial query optimization.
+    - ✔ JWT Authentication: Secure stateless token-based authorization.
+    - ✔ Concurrency Control: Distributed locking via Redis to prevent booking conflicts.
+  Tech Stack: "Spring Boot | PostgreSQL | Redis | Docker | Hibernate | Payment Ready | Admin Dashboard"
+
+💬 [Convo Chat Application](https://github.com/dev-adityak/Convo):
+  Description: "A secure, highly concurrent realtime messaging backend architecture."
+  Highlights:
+    - ✔ WebSocket Engine: Full-duplex messaging with low connection overhead.
+    - ✔ Security Filter: JWT-based stateless access verification.
+    - ✔ Read Receipts & Indicators: Event-driven typing indicator & presence detection.
+    - ✔ Scaling Database: Partitioned PostgreSQL tables with composite indexes.
+  Tech Stack: "FastAPI | Python | WebSockets | PostgreSQL | Docker | JWT | Online Presence"
+
+🏥 [Clinic Platform](https://github.com/dev-adityak/ClinicHub):
+  Description: "An SEO-first medical scheduling and administrative workflow engine."
+  Highlights:
+    - ✔ Appointment Scheduling: Custom state machine preventing booking collisions.
+    - ✔ Modern Frontend: Next.js SSR & SSG producing a 98+ Google Lighthouse Performance Score.
+    - ✔ Admin Dashboard: Complete metrics control and practitioners database management.
+  Tech Stack: "Next.js | TypeScript | Spring Boot | PostgreSQL | Lighthouse 98+"
+```
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dev-adityak&show_icons=true&theme=tokyonight&hide_border=true" alt="Aditya's GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-adityak&layout=compact&theme=tokyonight&hide_border=true" alt="Aditya's Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaCS06&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=dev-adityak&theme=tokyonight&hide_border=true" alt="Aditya's Streak Stats" />
 </p>
 
 ---
 
+## 📈 Contribution Graph
+
 <p align="center">
-  <em>"Clean Architecture. Reliable Systems. Scalable Solutions."</em>
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=dev-adityak&theme=tokyo-night&hide_border=true" alt="Aditya's Activity Graph" />
 </p>
 
 ---
 
+## 💡 CodeChef Stats
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=1e1b4b&customColorEnd=0f172a&height=120&section=footer&theme=dark" width="100%" />
+  <a href="https://www.codechef.com/users/aditya_kori" target="_blank">
+    <img src="https://codechef-readme-stats.onrender.com/aditya_kori?v=1" alt="Aditya's CodeChef Stats" />
+  </a>
+</p>
+
+---
+
+## 🏆 Achievements
+
+<p align="center">
+  <a href="https://github.com/dev-adityak?tab=achievements&achievement=pull-shark" target="_blank">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="110" alt="Pull Shark Badge" />
+  </a>
+</p>
+
+<!-- <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dev-adityak&theme=algolia&margin-w=15&no-frame=true" alt="Aditya's Trophies" />
+</p> -->
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</p>
+<!-- 
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/dev-adityak/dev-adityak/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</p> -->
+
+---
+
+## 💼 Experience & Timeline
+
+```markdown
+┌── [2024 - Present]  [Job Title] @ [Company/Organization Name]
+│   └── Focused on Spring Boot microservices, high-traffic APIs, and database replication patterns.
+│
+├── [2023 - 2024]     [Job Title / Intern] @ [Previous Company Name]
+│   └── Designed database schemas, automated test suites, and dockerized modular services.
+│
+└── [2020 - 2024]     B.Tech in Computer Science & Engineering
+    └── Graduated with honors, focusing on distributed systems and database internals.
+```
+
+---
+
+## 🎯 2026 Goals
+
+- [ ] Prepare for **AWS Certified Developer – Associate** certification exam.
+- [ ] Prepare for **Oracle Certified Professional: Java SE Programmer** certification exam.
+- [ ] Master Kubernetes cluster scaling and Service Mesh configurations.
+- [ ] Build a lightweight, distributed KV-store using Raft consensus protocol from scratch.
+- [ ] Complete the AWS Certified Solutions Architect Professional exam.
+
+---
+
+## 🌍 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/dev-adityak" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  </a>
+  <a href="mailto:adityakumarkori06@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+  </a>
+  <a href="https://twitter.com/dev_adityak" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter/X-0F172A?style=for-the-badge&logo=x&logoColor=FFFFFF" alt="Twitter" />
+  </a>
+  <a href="https://discord.com/users/dev-adityak" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-0F172A?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" />
+  </a>
+</p>
+
+<p align="center">
+  <blockquote>"Code should not only work today—it should scale tomorrow."</blockquote>
 </p>
