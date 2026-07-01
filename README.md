@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,50:1E293B,100:312E81&text=Aditya%20Kumar%20Kori&fontColor=ffffff&fontSize=55&fontAlignY=38&animation=fadeIn"/>
+  <img width="100%" src="banner.png" alt="Aditya Kumar Kori Header Banner" />
 </p>
 
 <p align="center">
@@ -222,8 +222,4 @@ Here is a look at the architecture specifications of my core systems.
 
 <p align="center">
   <blockquote>"Code should not only work today—it should scale tomorrow."</blockquote>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:312E81,50:1E293B,100:0F172A"/>
 </p>

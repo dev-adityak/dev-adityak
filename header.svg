@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="100%">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&amp;display=swap');
+    .text { font-family: 'JetBrains Mono', monospace; }
+    .name-text { font-weight: 800; font-size: 34px; fill: #38bdf8; filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4)); }
+    .sub-text { font-weight: 500; font-size: 13px; fill: #64748b; letter-spacing: 2px; }
+    .term-prompt { font-weight: 700; fill: #a855f7; font-size: 11px; }
+    .term-txt { fill: #f8fafc; font-size: 11px; }
+    .term-meta { fill: #22c55e; font-size: 10px; }
+    .dash-title { font-weight: 700; font-size: 10px; fill: #64748b; letter-spacing: 1px; }
+    .status-dot { animation: blink 1.5s infinite; }
+    @keyframes blink {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Gradients & Patterns -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="wave-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.25" />
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="10" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="100%" height="100%" fill="url(#dot-grid)" rx="10" />
+
+  <!-- LEFT PANEL: SYSTEMS MONITORING DASHBOARD -->
+  <g transform="translate(35, 35)">
+    <!-- Dashboard Frame -->
+    <rect width="430" height="210" rx="8" fill="#020408" stroke="#1e293b" stroke-width="1.5" />
+    
+    <!-- Top Header Bar -->
+    <path d="M 0 6 A 6 6 0 0 1 6 0 L 424 0 A 6 6 0 0 1 430 6 L 430 25 L 0 25 Z" fill="#0b0f19" />
+    <circle cx="15" cy="12.5" r="4.5" fill="#f43f5e" />
+    <circle cx="28" cy="12.5" r="4.5" fill="#eab308" />
+    <circle cx="41" cy="12.5" r="4.5" fill="#22c55e" />
+    <text x="70" y="16" class="text dash-title">SYS-METRICS // GRAFANA_MOCK</text>
+    <text x="415" y="16" class="text dash-title" style="fill: #22c55e;">● LIVE</text>
+
+    <!-- Wave Graph (Traffic Line) -->
+    <path d="M 15 170 Q 60 80 100 130 T 180 90 T 260 145 T 320 70 L 320 185 L 15 185 Z" fill="url(#wave-grad)" />
+    <path d="M 15 170 Q 60 80 100 130 T 180 90 T 260 145 T 320 70" fill="none" stroke="url(#line-grad)" stroke-width="2" />
+    
+    <!-- Graph Grid Lines -->
+    <line x1="15" y1="185" x2="320" y2="185" stroke="#1e293b" stroke-width="1" />
+    <line x1="15" y1="140" x2="320" y2="140" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="2,2" />
+    <line x1="15" y1="95" x2="320" y2="95" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="2,2" />
+    
+    <text x="20" y="195" class="text" font-size="8" fill="#475569">00:00</text>
+    <text x="160" y="195" class="text" font-size="8" fill="#475569">06:00</text>
+    <text x="300" y="195" class="text" font-size="8" fill="#475569">12:00</text>
+
+    <!-- Kubernetes Nodes/Pods Panel on Right of Left Panel -->
+    <line x1="335" y1="35" x2="335" y2="195" stroke="#1e293b" stroke-width="1" />
+    <g transform="translate(345, 40)">
+      <text x="0" y="8" class="text" font-size="9" font-weight="700" fill="#64748b">CLUSTER PODS</text>
+      
+      <circle cx="5" cy="28" r="3.5" fill="#22c55e" class="status-dot" />
+      <text x="15" y="31" class="text" font-size="9" fill="#cbd5e1">gateway-node</text>
+      
+      <circle cx="5" cy="48" r="3.5" fill="#22c55e" class="status-dot" />
+      <text x="15" y="51" class="text" font-size="9" fill="#cbd5e1">rickshaw-svc</text>
+
+      <circle cx="5" cy="68" r="3.5" fill="#22c55e" class="status-dot" />
+      <text x="15" y="71" class="text" font-size="9" fill="#cbd5e1">convo-svc</text>
+
+      <circle cx="5" cy="88" r="3.5" fill="#eab308" class="status-dot" />
+      <text x="15" y="91" class="text" font-size="9" fill="#cbd5e1">kafka-broker</text>
+      
+      <!-- CPU Load gauge -->
+      <text x="0" y="120" class="text" font-size="8" fill="#64748b">CPU LOAD: 34%</text>
+      <rect x="0" y="128" width="70" height="5" rx="2.5" fill="#1e293b" />
+      <rect x="0" y="128" width="24" height="5" rx="2.5" fill="#38bdf8" />
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: MONOSPACE NAME & SSH IDE TERMINAL -->
+  <!-- Monospace Branding -->
+  <g transform="translate(495, 42)">
+    <text x="0" y="28" class="text name-text">ADITYA KUMAR KORI</text>
+    <text x="2" y="48" class="text sub-text">DISTRIBUTED SYSTEMS &amp; BACKEND ENGINEER</text>
+    <line x1="0" y1="62" x2="470" y2="62" stroke="#1e293b" stroke-width="1.5" />
+    <line x1="0" y1="62" x2="120" y2="62" stroke="#a855f7" stroke-width="2" />
+  </g>
+
+  <!-- SSH Terminal Window -->
+  <g transform="translate(495, 120)">
+    <rect width="470" height="125" rx="6" fill="#020408" stroke="#1e293b" stroke-width="1.5" />
+    <!-- Window Bar -->
+    <path d="M 0 5 A 5 5 0 0 1 5 0 L 465 0 A 5 5 0 0 1 470 5 L 470 20 L 0 20 Z" fill="#0b0f19" />
+    <text x="15" y="13" class="text" font-size="9" fill="#475569">dev-adityak@production-node-1:~</text>
+    
+    <!-- Code / Commands Executed -->
+    <g transform="translate(15, 38)">
+      <text x="0" y="0" class="text term-prompt">dev-adityak@kernel:~$ <tspan class="term-txt">kafka-console-consumer --topic chat-events</tspan></text>
+      
+      <text x="0" y="18" class="text term-txt" fill="#94a3b8"> [PARTITION 0] OFFSET 10452 - Payload: {"status":"sent", "latency":"2.4ms"}</text>
+      <text x="0" y="32" class="text term-txt" fill="#94a3b8"> [PARTITION 1] OFFSET 98512 - Payload: {"match":"driver_32", "radius":"150m"}</text>
+      
+      <text x="0" y="52" class="text term-prompt">dev-adityak@kernel:~$ <tspan class="term-txt" fill="#38bdf8">sysctl --get-throughput</tspan></text>
+      <text x="0" y="68" class="text term-meta"> ⚡ CLUSTER STATUS: HEALTHY | ACTIVE TRANSACTIONS: 148,251 req/sec</text>
+    </g>
+  </g>
+</svg>
