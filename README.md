@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="banner.png" alt="Aditya Kumar Kori Header Banner" />
+  <img width="100%" src="banner.svg" alt="Aditya Kumar Kori Header Banner" />
 </p>
 
 <p align="center">
@@ -155,21 +155,17 @@ Here is a look at the architecture specifications of my core systems.
   </a>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=dev-adityak&theme=algolia&margin-w=15&no-frame=true" alt="Aditya's Trophies" />
-</p> -->
+</p>
 
 ---
 
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
-</p>
-
-<!-- <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/dev-adityak/dev-adityak/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
-</p> -->
+</p>
 
 ---
 
