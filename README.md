@@ -6,18 +6,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Backend+Engineer;Java+%7C+Spring+Boot+Expert;Distributed+Systems+Developer;Building+Production+Scale+Applications;Clean+Architecture+Advocate;Always+Learning+Always+Building" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/AdityaCS06">
-    <img src="https://komarev.com/ghpvc/?username=AdityaCS06&label=Visitors&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
-  </a>
-  <a href="https://github.com/AdityaCS06">
-    <img src="https://img.shields.io/github/followers/AdityaCS06?style=for-the-badge&color=0ea5e9&labelColor=0f172a" alt="Followers" />
-  </a>
-  <a href="https://github.com/AdityaCS06/GitHubProfile">
-    <img src="https://img.shields.io/github/stars/AdityaCS06/GitHubProfile?style=for-the-badge&color=0ea5e9&labelColor=0f172a" alt="Stars" />
-  </a>
-</p>
-
 ---
 
 ## ⚡ About Me
@@ -131,12 +119,12 @@ Here is a look at the architecture specifications of my core systems.
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AdityaCS06&show_icons=true&theme=tokyonight&hide_border=true" alt="Aditya's GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaCS06&layout=compact&theme=tokyonight&hide_border=true" alt="Aditya's Top Languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dev-adityak&show_icons=true&theme=tokyonight&hide_border=true" alt="Aditya's GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-adityak&layout=compact&theme=tokyonight&hide_border=true" alt="Aditya's Top Languages" />
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaCS06&theme=tokyonight&hide_border=true" alt="Aditya's Streak Stats" />
+  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=dev-adityak&theme=tokyonight&hide_border=true" alt="Aditya's Streak Stats" />
 </p>
 
 ---
@@ -144,7 +132,7 @@ Here is a look at the architecture specifications of my core systems.
 ## 📈 Contribution Graph
 
 <p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaCS06&theme=tokyo-night&hide_border=true" alt="Aditya's Activity Graph" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=dev-adityak&theme=tokyo-night&hide_border=true" alt="Aditya's Activity Graph" />
 </p>
 
 ---
@@ -162,8 +150,14 @@ Here is a look at the architecture specifications of my core systems.
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AdityaCS06&theme=algolia&margin-w=15&no-frame=true" alt="Aditya's Trophies" />
+  <a href="https://github.com/dev-adityak?tab=achievements&achievement=pull-shark" target="_blank">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="110" alt="Pull Shark Badge" />
+  </a>
 </p>
+
+<!-- <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dev-adityak&theme=algolia&margin-w=15&no-frame=true" alt="Aditya's Trophies" />
+</p> -->
 
 ---
 
@@ -172,6 +166,10 @@ Here is a look at the architecture specifications of my core systems.
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
 </p>
+
+<!-- <p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/dev-adityak/dev-adityak/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</p> -->
 
 ---
 
@@ -208,16 +206,16 @@ Here is a look at the architecture specifications of my core systems.
 ## 🌍 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/AdityaCS06" target="_blank">
+  <a href="https://linkedin.com/in/dev-adityak" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
   </a>
   <a href="mailto:adityakumarkori06@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
   </a>
-  <a href="https://twitter.com/AdityaCS06" target="_blank">
+  <a href="https://twitter.com/dev_adityak" target="_blank">
     <img src="https://img.shields.io/badge/Twitter/X-0F172A?style=for-the-badge&logo=x&logoColor=FFFFFF" alt="Twitter" />
   </a>
-  <a href="https://discord.com/users/AdityaCS06" target="_blank">
+  <a href="https://discord.com/users/dev-adityak" target="_blank">
     <img src="https://img.shields.io/badge/Discord-0F172A?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" />
   </a>
 </p>
