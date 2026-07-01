@@ -92,33 +92,38 @@ I design system architectures with a strong emphasis on decoupling, caching effi
 
 Here is a look at the architecture specifications of my core systems.
 
-```yaml
-🚗 [AutoRickshaw Platform](https://github.com/dev-adityak/AutoRickshaw):
-  Description: "An enterprise-grade, ride-hailing system designed for low-latency matching and high throughput."
-  Highlights:
-    - ✔ Redis Geospatial Search: Live vehicle tracking and geospatial indexing.
-    - ✔ Driver Matching: Real-time spatial query optimization.
-    - ✔ JWT Authentication: Secure stateless token-based authorization.
-    - ✔ Concurrency Control: Distributed locking via Redis to prevent booking conflicts.
-  Tech Stack: "Spring Boot | PostgreSQL | Redis | Docker | Hibernate | Payment Ready | Admin Dashboard"
+### 🚗 [AutoRickshaw Platform](https://github.com/dev-adityak/AutoRickshaw)
+> **An enterprise-grade, ride-hailing system designed for low-latency matching and high throughput.**
+>
+> * 📍 **Redis Geospatial Search:** Live vehicle tracking and real-time geospatial indexing.
+> * ⚡ **Driver Matching:** Real-time spatial query optimization matching drivers in sub-second intervals.
+> * 🔑 **JWT Authentication:** Secure stateless token-based authorization and RBAC routing.
+> * 🔒 **Concurrency Control:** Distributed locking via Redis Redlock to eliminate double-booking conflicts.
+> 
+> **Tech Stack:** `Spring Boot` · `PostgreSQL` · `Redis` · `Docker` · `Hibernate` · `Payment Ready` · `Admin Dashboard`
 
-💬 [Convo Chat Application](https://github.com/dev-adityak/Convo):
-  Description: "A secure, highly concurrent realtime messaging backend architecture."
-  Highlights:
-    - ✔ WebSocket Engine: Full-duplex messaging with low connection overhead.
-    - ✔ Security Filter: JWT-based stateless access verification.
-    - ✔ Read Receipts & Indicators: Event-driven typing indicator & presence detection.
-    - ✔ Scaling Database: Partitioned PostgreSQL tables with composite indexes.
-  Tech Stack: "FastAPI | Python | WebSockets | PostgreSQL | Docker | JWT | Online Presence"
+---
 
-🏥 [Clinic Platform](https://github.com/dev-adityak/ClinicHub):
-  Description: "An SEO-first medical scheduling and administrative workflow engine."
-  Highlights:
-    - ✔ Appointment Scheduling: Custom state machine preventing booking collisions.
-    - ✔ Modern Frontend: Next.js SSR & SSG producing a 98+ Google Lighthouse Performance Score.
-    - ✔ Admin Dashboard: Complete metrics control and practitioners database management.
-  Tech Stack: "Next.js | TypeScript | Spring Boot | PostgreSQL | Lighthouse 98+"
-```
+### 💬 [Convo Chat Application](https://github.com/dev-adityak/Convo)
+> **A secure, highly concurrent realtime messaging backend architecture.**
+>
+> * 🔌 **WebSocket Engine:** Full-duplex messaging with low connection overhead.
+> * 🛡️ **Security Filter:** JWT-based stateless access verification and silent token-refresh rotation.
+> * 🔔 **Read Receipts & Indicators:** Event-driven typing indicators and online presence tracking.
+> * 🗄️ **Scaling Database:** Partitioned PostgreSQL tables with composite indexes for sub-10ms lookup.
+> 
+> **Tech Stack:** `FastAPI` · `Python` · `WebSockets` · `PostgreSQL` · `Docker` · `JWT` · `Online Presence`
+
+---
+
+### 🏥 [Clinic Platform](https://github.com/dev-adityak/ClinicHub)
+> **An SEO-first medical scheduling and administrative workflow engine.**
+>
+> * 📅 **Appointment Scheduling:** Custom scheduling state-machine preventing booking collisions.
+> * ⚡ **Modern Frontend:** Next.js SSR & SSG producing a 98+ Google Lighthouse Performance Score.
+> * 📊 **Admin Dashboard:** Complete scheduling metrics control and practitioners database management.
+> 
+> **Tech Stack:** `Next.js` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Lighthouse 98+`
 
 ---
 
