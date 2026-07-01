@@ -47,50 +47,39 @@ I'm a passionate **Software Engineer** focused on designing scalable backend sys
 
 ## ⚙️ Tech Stack
 
-### Languages & Query Specs
+### 💻 Languages
 <p align="left">
-  <img src="https://img.shields.io/badge/Java-0F172A?style=flat-square&logo=openjdk&logoColor=F8981D" alt="Java"/>
-  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/SQL-0F172A?style=flat-square&logo=sqlite&logoColor=4479A1" alt="SQL"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,py,js,ts,mysql&theme=dark" />
+  </a>
 </p>
 
-### Backend Frameworks & Security
+### ⚙️ Backend Frameworks & Architecture
 <p align="left">
-  <img src="https://img.shields.io/badge/Spring_Boot-0F172A?style=flat-square&logo=spring-boot&logoColor=6DB33F" alt="Spring Boot"/>
-  <img src="https://img.shields.io/badge/FastAPI-0F172A?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Django-0F172A?style=flat-square&logo=django&logoColor=092E20" alt="Django"/>
-  <img src="https://img.shields.io/badge/Express-0F172A?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express"/>
-  <img src="https://img.shields.io/badge/Spring_Security-0F172A?style=flat-square&logo=spring&logoColor=6DB33F" alt="Spring Security"/>
-  <img src="https://img.shields.io/badge/Hibernate-0F172A?style=flat-square&logo=hibernate&logoColor=59666C" alt="Hibernate"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=spring,fastapi,django,express&theme=dark" />
+  </a>
 </p>
 
-### Databases, Caching & Message Broker
+### 🗄️ Databases, Caching & Events
 <p align="left">
-  <img src="https://img.shields.io/badge/PostgreSQL-0F172A?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MySQL-0F172A?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/MongoDB-0F172A?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/Redis-0F172A?style=flat-square&logo=redis&logoColor=DC382D" alt="Redis"/>
-  <img src="https://img.shields.io/badge/Apache_Kafka-0F172A?style=flat-square&logo=apachekafka&logoColor=FFFFFF" alt="Apache Kafka"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka&theme=dark" />
+  </a>
 </p>
 
-### DevOps, Clouds & Tooling
+### 🚀 DevOps, Cloud & Tools
 <p align="left">
-  <img src="https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-0F172A?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-0F172A?style=flat-square&logo=github-actions&logoColor=2088FF" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Git-0F172A?style=flat-square&logo=git&logoColor=F05032" alt="Git"/>
-  <img src="https://img.shields.io/badge/Linux-0F172A?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Postman-0F172A?style=flat-square&logo=postman&logoColor=FF6C37" alt="Postman"/>
-  <img src="https://img.shields.io/badge/DigitalOcean-0F172A?style=flat-square&logo=digitalocean&logoColor=0080FF" alt="DigitalOcean"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,git,linux,postman,do&theme=dark" />
+  </a>
 </p>
 
-### Frontend Integration
+### 🎨 Frontend Integration
 <p align="left">
-  <img src="https://img.shields.io/badge/Next.js-0F172A?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/React-0F172A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind&theme=dark" />
+  </a>
 </p>
 
 ---
@@ -160,11 +149,11 @@ Here is a look at the architecture specifications of my core systems.
 
 ---
 
-## 💡 LeetCode Stats
+## 💡 CodeChef Stats
 
 <p align="center">
-  <a href="https://leetcode.com/AdityaCS06" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/AdityaCS06?theme=dark&font=JetBrains+Mono&ext=activity" alt="Aditya's LeetCode Stats" />
+  <a href="https://www.codechef.com/users/aditya_kori" target="_blank">
+    <img src="https://codechef-readme-stats.onrender.com/aditya_kori?v=1" alt="Aditya's CodeChef Stats" />
   </a>
 </p>
 
@@ -240,4 +229,3 @@ Here is a look at the architecture specifications of my core systems.
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:312E81,50:1E293B,100:0F172A"/>
 </p>
-
