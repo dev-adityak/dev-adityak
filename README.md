@@ -26,10 +26,16 @@ I'm a passionate **Software Engineer** focused on designing scalable backend sys
 * 🔥 **Enterprise Ride Booking Platform** (`AutoRickshaw`)
 * 💬 **High Performance Chat Application** (`Convo`)
 * 🏥 **SEO Optimized Clinic Platform** (`ClinicHub`)
-* 📚 **Deepening Distributed Systems Architecture**
-  * ⚡ **Apache Kafka** (Clustering & Partitioning)
-  * ☁ **Kubernetes** (Container Orchestration)
-  * 🐳 **Docker Ecosystem** (Service Mesh & Deployment)
+
+---
+
+## 📖 Currently Learning
+
+To broaden my system engineering and backend capabilities, I am actively diving deep into:
+* ⚡ **Apache Kafka** (Event-driven streaming, log compaction, partition offsets)
+* ☁ **Kubernetes** (Container orchestration, pod scaling, service meshes)
+* 🐳 **Docker Ecosystem** (Multi-stage builds, compose networks, local registry deployment)
+* 🏗 **Distributed System Design Patterns** (Saga pattern, distributed consensus, data replication)
 
 ---
 
@@ -87,7 +93,7 @@ I design system architectures with a strong emphasis on decoupling, caching effi
 Here is a look at the architecture specifications of my core systems.
 
 ```yaml
-🚗 AutoRickshaw Platform:
+🚗 [AutoRickshaw Platform](https://github.com/dev-adityak/AutoRickshaw):
   Description: "An enterprise-grade, ride-hailing system designed for low-latency matching and high throughput."
   Highlights:
     - ✔ Redis Geospatial Search: Live vehicle tracking and geospatial indexing.
@@ -96,7 +102,7 @@ Here is a look at the architecture specifications of my core systems.
     - ✔ Concurrency Control: Distributed locking via Redis to prevent booking conflicts.
   Tech Stack: "Spring Boot | PostgreSQL | Redis | Docker | Hibernate | Payment Ready | Admin Dashboard"
 
-💬 Convo Chat Application:
+💬 [Convo Chat Application](https://github.com/dev-adityak/Convo):
   Description: "A secure, highly concurrent realtime messaging backend architecture."
   Highlights:
     - ✔ WebSocket Engine: Full-duplex messaging with low connection overhead.
@@ -105,7 +111,7 @@ Here is a look at the architecture specifications of my core systems.
     - ✔ Scaling Database: Partitioned PostgreSQL tables with composite indexes.
   Tech Stack: "FastAPI | Python | WebSockets | PostgreSQL | Docker | JWT | Online Presence"
 
-🏥 Clinic Platform:
+🏥 [Clinic Platform](https://github.com/dev-adityak/ClinicHub):
   Description: "An SEO-first medical scheduling and administrative workflow engine."
   Highlights:
     - ✔ Appointment Scheduling: Custom state machine preventing booking collisions.
@@ -155,28 +161,32 @@ Here is a look at the architecture specifications of my core systems.
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=dev-adityak&theme=algolia&margin-w=15&no-frame=true" alt="Aditya's Trophies" />
-</p>
+</p> -->
 
 ---
 
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/dev-adityak/dev-adityak/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+  <img width="100%" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
 </p>
+<!-- 
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/dev-adityak/dev-adityak/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</p> -->
 
 ---
 
 ## 💼 Experience & Timeline
 
 ```markdown
-┌── [2024 - Present]  Backend Software Engineer
-│   └── Focused on Spring Boot microservices, high-traffic APIs, and Redis optimization.
+┌── [2024 - Present]  [Job Title] @ [Company/Organization Name]
+│   └── Focused on Spring Boot microservices, high-traffic APIs, and database replication patterns.
 │
-├── [2023 - 2024]     Systems Engineering Trainee
-│   └── Designed database schemas, automated testing, and dockerized microservices.
+├── [2023 - 2024]     [Job Title / Intern] @ [Previous Company Name]
+│   └── Designed database schemas, automated test suites, and dockerized modular services.
 │
 └── [2020 - 2024]     B.Tech in Computer Science & Engineering
     └── Graduated with honors, focusing on distributed systems and database internals.
@@ -184,15 +194,10 @@ Here is a look at the architecture specifications of my core systems.
 
 ---
 
-## 🎓 Certifications
-
-* 🎓 **AWS Certified Developer – Associate** (Cloud deployment and serverless pipelines)
-* 🎓 **Oracle Certified Professional: Java SE Programmer** (Enterprise Java internals)
-
----
-
 ## 🎯 2026 Goals
 
+- [ ] Prepare for **AWS Certified Developer – Associate** certification exam.
+- [ ] Prepare for **Oracle Certified Professional: Java SE Programmer** certification exam.
 - [ ] Master Kubernetes cluster scaling and Service Mesh configurations.
 - [ ] Build a lightweight, distributed KV-store using Raft consensus protocol from scratch.
 - [ ] Complete the AWS Certified Solutions Architect Professional exam.
